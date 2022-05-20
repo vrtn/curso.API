@@ -2,7 +2,9 @@
 
 namespace curso.API.Models.Usuarios
 {
-    
+    /// <summary>
+    /// Model de registro do usuário
+    /// </summary>
     public class RegistroViewModelInput
     {
         [Required(ErrorMessage ="O Login é obrigatório")]

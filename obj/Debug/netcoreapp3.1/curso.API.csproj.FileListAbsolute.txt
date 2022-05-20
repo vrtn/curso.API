@@ -25,3 +25,4 @@ C:\projetos\csharp\dio\curso.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.
 C:\projetos\csharp\dio\curso.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\projetos\csharp\dio\curso.API\obj\Debug\netcoreapp3.1\curso.API.MvcApplicationPartsAssemblyInfo.cs
 C:\projetos\csharp\dio\curso.API\obj\Debug\netcoreapp3.1\curso.API.csproj.CopyComplete
+C:\projetos\csharp\dio\curso.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll

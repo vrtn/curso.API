@@ -4,5 +4,84 @@
         <name>curso.API</name>
     </assembly>
     <members>
+        <member name="T:curso.API.Controllers.UsuarioController">
+            <summary>
+            Controller do Usuário
+            </summary>
+        </member>
+        <member name="M:curso.API.Controllers.UsuarioController.Logar(curso.API.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Este serviço permite autenticar um usuário cadastrado e ativo
+            </summary>
+            <param name="loginViewModelInput">View Model do login</param>
+            <returns></returns>
+        </member>
+        <member name="M:curso.API.Controllers.UsuarioController.Registrar(curso.API.Models.Usuarios.RegistroViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar um usuário
+            </summary>
+            <param name="registroViewModelInput">View Model do Registro</param>
+            <returns></returns>
+        </member>
+        <member name="T:curso.API.Models.ErroGenericoViewModel">
+            <summary>
+            Model para Erro Generico
+            </summary>
+        </member>
+        <member name="P:curso.API.Models.ErroGenericoViewModel.Mensagem">
+            <summary>
+            Mensagem de erro
+            </summary>
+        </member>
+        <member name="T:curso.API.Models.Usuarios.RegistroViewModelInput">
+            <summary>
+            Model de registro do usuário
+            </summary>
+        </member>
+        <member name="T:curso.API.Models.ValidaCampoViewModelOutput">
+            <summary>
+            Model Vvlidadora de campos
+            </summary>
+        </member>
+        <member name="P:curso.API.Models.ValidaCampoViewModelOutput.Erros">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:curso.API.Models.ValidaCampoViewModelOutput.#ctor(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            IEnumerable com as mensagens de erro da validação de campos
+            </summary>
+            <param name="erros"></param>
+        </member>
+        <member name="T:curso.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:curso.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:curso.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:curso.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:curso.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
     </members>
 </doc>
